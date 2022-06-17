@@ -1,0 +1,81 @@
+// --basic start-----------------------------------------------------------------------------------------------
+
+html, body {
+    height: 100%;
+}
+
+html {
+    transition: all .8s ease 0s;
+    scroll-padding-top: 50px;
+    background-color: $html-bg;
+}
+
+body {
+    font-family: 'Bai Jamjuree';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: $basic;
+}
+
+.wrapper {
+    max-width: 1440px;
+    margin: 0 auto;
+    min-height: 100%;
+    overflow: hidden ;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-color: $wrapper-bg;
+}
+
+[class*="__container"] {
+    max-width: 1090px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+[class*="__container--big"] {
+    max-width: 1310px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.main {
+    flex: 1 1 auto;
+}
+
+.title {
+    font-size: 45px;
+    line-height: 124%;
+    letter-spacing: 1.44px;
+}
+
+.subtitle {
+    font-size: 18px;
+    line-height: 178%;
+    letter-spacing: 1.44px;
+    text-transform: uppercase;
+}
+
+// .text {
+//     font-weight: 300;
+//     font-size: 24px;
+// }
+
+.btn {
+    display: inline-block;
+    padding: 8px 25px;
+    border: 1px solid $basic; 
+    text-align: center;
+    transition: all 0.5s
+
+}
+
+.btn:hover {
+    color:$white;
+    background-color:$basic;
+    transition: all 0.5s
+}
+
+// --basic end-----------------------------------------------------------------------------------------------
