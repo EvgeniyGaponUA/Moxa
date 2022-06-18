@@ -278,13 +278,20 @@
                                     padding: 20px 0;
                                     font-size: 25px;
                                     transition: all 0.5s;
+
+                                        &:hover {
+                                            background-color:$basic;
+                                            text-decoration: underline;
+                                            color:$white;
+                                            transition: all 0.5s;
+                                        }
+
+                                        &::after {
+                                            display: none;
+                                        }
                                 }
         
-                                .header__link:hover {
-                                    text-decoration: underline;
-                                    color:$white;
-                                    transition: all 0.5s;
-                                }
+
                             }
                     }
                 }

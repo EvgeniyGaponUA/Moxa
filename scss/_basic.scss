@@ -93,12 +93,12 @@ body {
             background-color: $basic;
             transform-origin: bottom right;
             transition: transform 0.3s ease-out;
-          }
+        }
 
-          &:hover:after {
+        &:hover:after {
             transform: scaleX(1);
             transform-origin: bottom left;
-          }
+        }
 }
 
 // --basic end-----------------------------------------------------------------------------------------------

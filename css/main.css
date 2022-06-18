@@ -1063,9 +1063,13 @@ body {
     transition: all 0.5s;
   }
   .header .header__wrapper .header__nav .hrader__list .header__item .header__link:hover {
+    background-color: #161513;
     text-decoration: underline;
     color: #fff;
     transition: all 0.5s;
+  }
+  .header .header__wrapper .header__nav .hrader__list .header__item .header__link::after {
+    display: none;
   }
   .header .header__wrapper .header__right {
     display: flex;
