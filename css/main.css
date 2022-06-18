@@ -102,6 +102,29 @@ body {
   transition: all 0.5s;
 }
 
+.link-under {
+  display: inline-block;
+  position: relative;
+}
+
+.link-under:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 1px;
+  bottom: 0;
+  left: 0;
+  background-color: #161513;
+  transform-origin: bottom right;
+  transition: transform 0.3s ease-out;
+}
+
+.link-under:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
 .header {
   padding: 27px 0;
   margin: 0 0 67px 0;
@@ -126,10 +149,6 @@ body {
 
 .header .header__wrapper .header__nav .hrader__list > *:not(:last-child) {
   margin: 0 32px 0 0;
-}
-
-.header .header__wrapper .header__nav .hrader__list .header__item .header__link:hover {
-  text-decoration: underline;
 }
 
 .header .header__wrapper .header__right .header__burger {
@@ -490,15 +509,6 @@ body {
 
 .portfolio .portfolio__boxs .box-portfolio .box-portfolio__content .box-portfolio__title {
   margin: 0 0 49px 0;
-}
-
-.portfolio .portfolio__boxs .box-portfolio .box-portfolio__content .box-portfolio__link {
-  transition: all 0.5s;
-}
-
-.portfolio .portfolio__boxs .box-portfolio .box-portfolio__content .box-portfolio__link:hover {
-  text-decoration: underline;
-  transition: all 0.5s;
 }
 
 .services {
