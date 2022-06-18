@@ -30,14 +30,11 @@
                         &>*:not(:last-child) {
                             margin: 0 32px 0 0;
                         }
-                    .header__item {
+                    // .header__item {
 
-                        // .header__link {}
-
-                        .header__link:hover {
-                            text-decoration: underline;
-                        }
-                    }
+                    //     .header__link {}
+                        
+                    // }
                 }
             }
 
@@ -460,14 +457,7 @@
                                 margin: 0 0 49px 0;
                             }
 
-                            .box-portfolio__link {
-                                transition: all 0.5s;
-
-                                &:hover {
-                                    text-decoration: underline;
-                                    transition: all 0.5s;
-                                }
-                            }
+                            // .box-portfolio__link {}
                     }
             }
         }
